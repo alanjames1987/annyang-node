@@ -1,14 +1,12 @@
 var annyang = require('../index');
 
-annyang.init({
-	'(testing) a command' : function() {
-		console.log('this function will run when the trigger function is passed a matching initiation string');
-	},
+// Let's define a command.
+var commands = {
+	'show tps report': function() { // do something }
+};
 
-	'another command' : function() {
-		console.log('this function will not run in this example');
-	}
-});
+// Initialize our commands with annyang
+annyang.init(commands);
 
-// pass the trigger function a string
-annyang.trigger('testing a command');
+// Trigger a command
+annyang.trigger('show tps report');
