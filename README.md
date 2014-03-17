@@ -9,13 +9,15 @@ Just like the client version, annyang has no dependencies and is free to use and
 
 Usage
 -----
-Just require the annyang library in your Node application, and define the commands you want.
+Just `require` the annyang library in your Node application, and define the commands you want.
 ````js
 var annyang = require('annyang');
 
 // Let's define a command.
 var commands = {
-	'show tps report': function() { // do something }
+	'show tps report': function() { 
+		// do something 
+	}
 };
 
 // Initialize our commands with annyang
