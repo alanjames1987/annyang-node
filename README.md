@@ -32,7 +32,7 @@ annyang.trigger('show tps report');
 
 Because annyang-node is used on the server side a new instance should be made each time you want to use it. This helps with serving the correct content to the correct user via a WebSocket.
 
-For a full reference of how the keyword mathing works reference the official annyang site:
+For a full reference of how the keyword matching works reference the official annyang site:
 [https://www.talater.com/annyang/](https://www.talater.com/annyang/)
 
 Author
