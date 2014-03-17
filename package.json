@@ -1,0 +1,23 @@
+{
+  "name": "annyang",
+  "version": "0.0.1",
+  "description": "A javascript library for keyword based initiation of callback function.",
+  "keywords": [
+    "annyang",
+    "annyang.js"
+  ],
+  "authors": [
+    {
+    	"name": "Tal Ater",
+    	"email": "tal@talater.com",
+    	"url": "https://www.talater.com/"
+    },
+    {
+      "name": "Alan James",
+      "email": "alanjames1987@gmail.com",
+      "url":"http://alanjames1987.com"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "
+}
