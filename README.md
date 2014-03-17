@@ -10,9 +10,11 @@ Just like the client version, annyang has no dependencies and is free to use and
 
 Usage
 -----
-Just `require` the annyang library in your Node application, and define the commands you want.
+Just `require` the annyang library in your Node application, instantiate a new Annyang object, and define the commands you want.
 ````js
-var annyang = require('annyang');
+var Annyang = require('annyang');
+
+var annyang = new Annyang();
 
 // Let's define a command.
 var commands = {
@@ -27,6 +29,8 @@ annyang.init(commands);
 // Trigger a command
 annyang.trigger('show tps report');
 ````
+
+Because annyang-node is used on the server side a new instance should be made each time you want to use it. This helps with serving the correct content to the correct user via a WebSocket.
 
 For a full reference of how the keyword mathing works reference the official annyang site:
 [https://www.talater.com/annyang/](https://www.talater.com/annyang/)

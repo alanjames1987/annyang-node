@@ -1,6 +1,6 @@
 {
   "name": "annyang",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "A javascript library for keyword based initiation of callback function.",
   "keywords": [
     "annyang",
