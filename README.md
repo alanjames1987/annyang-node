@@ -28,6 +28,9 @@ annyang.init(commands);
 annyang.trigger('show tps report');
 ````
 
+For a full reference of how the keyword mathing works reference the official annyang site:
+[https://www.talater.com/annyang/](https://www.talater.com/annyang/)
+
 Author
 ------
 Alan James: [alanjames1987@gmail.com](mailto:alanjames1987@gmail.com)
