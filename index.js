@@ -68,7 +68,7 @@ annyang = {
 
 	},
 
-	on : function(commandText) {
+	trigger : function(commandText) {
 
 		for (var j = 0, l = commandsList.length; j < l; j++) {
 			var result = commandsList[j].command.exec(commandText);
