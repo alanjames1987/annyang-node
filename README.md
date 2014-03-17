@@ -33,4 +33,4 @@ Alan James: [alanjames1987@gmail.com](mailto:alanjames1987@gmail.com)
 
 License
 -------
-Licensed under [MIT](https://github.com/TalAter/annyang/blob/master/LICENSE).
+Licensed under [MIT](https://github.com/alanjames1987/annyang-node/blob/master/LICENSE).
