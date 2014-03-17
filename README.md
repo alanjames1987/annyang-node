@@ -1,4 +1,4 @@
-*annyang!*
+*annyang-node!*
 -----------------------------------------------
 
 A javascript library for keyword based initiation of callback function.
