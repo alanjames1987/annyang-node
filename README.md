@@ -1,7 +1,7 @@
 *annyang-node!*
 -----------------------------------------------
 
-A javascript library for keyword based initiation of callback function.
+A JavaScript library for keyword based initiation of callback function.
 
 This is a partial port of the amazing [annyang](https://github.com/TalAter/annyang) client side library by Tal Ater for Node.js.
 
@@ -10,8 +10,12 @@ Just like the client version, annyang has no dependencies and is free to use and
 
 Usage
 -----
+
+Install the module with npm:
+`$ npm install annyang`
+
 Just `require` the annyang library in your Node application, instantiate a new Annyang object, and define the commands you want.
-````js
+```js
 var Annyang = require('annyang');
 
 var annyang = new Annyang();
@@ -28,7 +32,7 @@ annyang.init(commands);
 
 // Trigger a command
 annyang.trigger('show tps report');
-````
+```
 
 Because annyang-node is used on the server side a new instance should be made each time you want to use it. This helps with serving the correct content to the correct user via a WebSocket.
 
