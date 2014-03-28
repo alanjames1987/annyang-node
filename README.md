@@ -1,5 +1,5 @@
 *annyang-node!*
------------------------------------------------
+---
 
 A JavaScript library for keyword based initiation of callback functions.
 
@@ -9,7 +9,7 @@ Just like the client version, annyang has no dependencies and is free to use and
 
 
 Usage
------
+---
 
 Install the module with npm:
 `$ npm install annyang`
@@ -40,9 +40,9 @@ For a full reference of how the keyword matching works reference the official an
 [https://www.talater.com/annyang/](https://www.talater.com/annyang/)
 
 Author
-------
+---
 Alan James: [alanjames1987@gmail.com](mailto:alanjames1987@gmail.com)
 
 License
--------
+---
 Licensed under [MIT](https://github.com/alanjames1987/annyang-node/blob/master/LICENSE).
