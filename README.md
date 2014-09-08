@@ -1,6 +1,8 @@
 annyang-node
 ---
 
+[![NPM version](https://badge.fury.io/js/annyang.svg)](http://badge.fury.io/js/annyang)
+
 A JavaScript library for keyword based initiation of callback functions.
 
 This is a partial port of the amazing [annyang](https://github.com/TalAter/annyang) client side library by Tal Ater for Node.js.
